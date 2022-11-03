@@ -1,9 +1,9 @@
 import './App.css'
-import NavgationBar from './Component/NavgationBar.jsx'
+
 export default function App() {
   return (
-   <div>
-    <NavgationBar />
-   </div>
+    <main>
+      React ⚛️ + Vite ⚡ + Replit 🌀
+    </main>
   )
 }

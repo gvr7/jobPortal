@@ -1,48 +1,5 @@
-
-body{
-  background-color:#aebbd1;
-  height: 100vh;
-}
-
-.animation{
-  animation-name:textHover;
-  animation-duration: 10s;
-  animation-iteration-count:infinite
-}
-@keyframes textHover{
-  0%{color : red}
-  25%{color : green}
-   50%{color : pink}
-   75%{color : blue}
-   100%{color : black}
-}
-.img-top{
-  height: 150px !important;
-}
-.check2{
-  height: 20vh !important;
-  background-size : cover;
-}
-.text-anand{
-    color: white !important !;
-  text-shadow: 2px 2px 1px red;
-  animation-name:textHover;
-  animation-duration: 10s;
-  animation-iteration-count:infinite
-}
-.height{
-  height:100vh !important;
-}
-
-.hovering{
-  animation-name:card;
-  animation-duration:10s;
-  animation-iteration-count:infinite
-}
-@keyframes card{
-  0%{background-color : red;color:white}
-  25%{background-color : blue;color:black}
-   50%{background-color : green; color:pink}
-   75%{background-color : pink;color:green}
-   100%{background-color : white;color:black}
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
 }
