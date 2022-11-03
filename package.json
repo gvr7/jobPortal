@@ -1,0 +1,46 @@
+{
+  "homepage": "http://gvr7.github.io/jobPortal",
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "React TypeScript on Replit, using Vite bundler",
+  "scripts": {
+   "build-css": "node-sass src/ -o src/",
+"watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
+"start": "npm run start:server",
+"watch": "npm-run-all --parallel watch-css start:*",
+"start:server": "node server/server.js",
+"start:client": "react-scripts start",
+"build": "npm run build-css && react-scripts build",
+"test": "react-scripts test --env=jsdom",
+"eject": "react-scripts eject",
+"postinstall": "npm run build"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "react-bootstrap": "^2.5.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4",
+    "typescript-language-server": "^0.11.2",
+    "vite": "^3.1.4"
+  },
+  "devDependencies":{
+    "gh-pages":"^3.2.3"
+  },
+  "engines": {
+    "node": "16.0.0",
+    "npm": "6.11.3"
+}
+}
